@@ -1,0 +1,7 @@
+1. https://github.com/microsoft/vcpkg
+2. rename vcpkg-master to vcpkg
+3. open the vcpkg folder in Powershell
+4. Run ./bootstrap-vcpkg.bat
+5. Run ./vcpkg integrate install
+6. Run ./vcpkg install raylib:x64-windows
+7. import "raylib.h"
